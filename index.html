@@ -144,7 +144,7 @@
 							<article id="AH2">
 								<h2 class="major">Konfiguracja bota<br>- zapoznanie</h2>
 								<p>Nasz bot posiada dobrze rozwinięty system konfiguracyjny, który pozwala na skonfigurowanie wielu funkcji bota.<br>
-								<center><image src="images/ah1.png" /><br><h5>Wygląd konfiguracji pochodzi z wersji <b>1.0 RTM</b></h5></center><br>
+								<center><image src="images/ah1.png" /></center><br>
 								Panel konfiguracyjny jest podzielony na kategorie, dlatego łatwiej jest znaleźć daną opcję.<hr>Znalazłeś błąd? Zgłoś go pod komendą <b>!bugreport</b>!<hr></p>
 
 							</article>
@@ -152,7 +152,7 @@
 							<article id="AH3">
 								<h2 class="major">Config - Ogólne</h2>
 								<p>
-								<center><image src="images/ah2.png" /><br><h5>Wygląd konfiguracji pochodzi z wersji <b>1.0 RTM</b></h5></center><br>
+								<center><image src="images/ah2.png" /></center><br>
 								Kategoria <b>Ogólne</b> pozwala na ustawienie podstawowych funkcji, takich jak np. wiadomość powitalna/pożegnalna, nadawanie rangi po dołączeniu na serwer oraz wiele więcej.<br>Jeżeli konfiguracją bota ma zajmować się nasz serwerowy technik należy użyć komendy <pre class=" CodeMirror-line " role="presentation"><span role="presentation"><b>@config allowedRole</b></span></pre><br>Komenda pozwala ustawić rolę, która będzie posiadała dostęp do konfiguracji bota. Osoby z taką rolą <b><u>NIE MOGĄ</u></b> zmieniać wartości opcji <span role="presentation"><b>allowedRole</b></span>
 								<table class="table table-striped table-dark">
 								<thead>
@@ -253,6 +253,11 @@
 								</tr>
 								
 								<tr>
+								<td><center><pre class=" CodeMirror-line " role="presentation">@config muteRole</span></pre></center></td>
+								<td><center>Komenda pozwala ustawić rolę, która ma być nadawana podczas użycia komendy @mute</center></td>
+								</tr>
+								
+								<tr>
 								<td><center><pre class=" CodeMirror-line " role="presentation">@config tryPremium</span></pre></center></td>
 								<td><center>Komenda pozwala na przetestowanie bota w wersji Premium przez okres próbny</center></td>
 								</tr>
@@ -266,20 +271,28 @@
 							
 							
 							<article id="AH4">
-								<h2 class="major">Config - Multikonta<h2><h3>Oczekiwanie na wersję 1.2 RTM...</h3>
+								<h2 class="major">Config - Multikonta</h2>
 								<p>
-								<div class="alert">
-									<table>
-									<thead>
-									<tr>
-									<hr>
-									<b><center><image src="images/warning.png" width="100" height="100" /></center></b>
-									<td><center><b><h3>UWAGA!</b> Ta część dokumentacji nie została jeszcze udostępniona!<br></h3><br><h4>Możliwe przyczyny takiego zjawiska:<br>- wersja, w której ma być dostępna dana opcja, nie została jeszcze wydana<br>- aktualnie trwa uzupełnianie strony i wkrótce będzie ona dostępna</h4></td>
-									</tr>
-									</thead>
-									</table>
-									<br>
-								</div>
+								<center><image src="images/ah4.png" /></center><br>
+								Kategoria <b>Multikonta</b> pomaga chronić serwer przed zapraszaniem fałszywych kont na serwer Discord.
+								<table class="table table-striped table-dark">
+								<thead>
+								<tr>
+								<td><b><center>Komenda</center></b></td>
+								<td><b><center>Opis</center></b></td>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+								<td><center><pre class=" CodeMirror-line " role="presentation">@config MultiSystem</span></pre></center></td>
+								<td><center>Komenda aktywuje/dezaktywuje moduł</center></td>
+								</tr>
+								<tr>
+								<td><center><pre class=" CodeMirror-line " role="presentation">@config maAutoPunish</span></pre></center></td>
+								<td><center>Komenda pozwala ustawić akcję, jaką ma podjąć bot podczas próby dołączenia fałszywego konta</center></td>
+								</tr>
+								</thead>
+								</table>
 								</p>
 
 							</article>
@@ -382,7 +395,7 @@
 							<article id="AH10">
 								<h2 class="major">Config -<br>ON/OFF Moduły/Funkcje</h2>
 								<p>
-								<center><image src="images/ah3.png" /><br><h5>Wygląd konfiguracji pochodzi z wersji <b>1.0 RTM</b></h5></center><br>
+								<center><image src="images/ah3.png" /></center><br>
 								Kategoria <b>Aktywowanie/Dezaktywowanie modułów/funkcji</b> pozwala na zarządzanie modułami/funkcjami bota na danym serwerze.<br>Dzięki tej komendzie możemy wyłączyć lub włączyć dany moduł/funkcję.
 								<table class="table table-striped table-dark">
 								<thead>
@@ -430,7 +443,7 @@
 
 
 					<footer id="footer">
-						<p class="copyright">&copy; Wszelkie prawa zastrzeżone!<br>Stworzone z &hearts; dla <b>AdminHelper</b></a>.</p>
+						<p class="copyright">Aktualna wersja dokumentacji: <b>1.2 RTM</b><br>&copy; Wszelkie prawa zastrzeżone!<br>Stworzone z &hearts; dla <b>AdminHelper</b></a>.</p>
 					</footer>
 					
 <!--					<div id="panel">
